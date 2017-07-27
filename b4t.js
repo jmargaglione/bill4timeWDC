@@ -374,7 +374,7 @@
 
 
 
-        // Schema for  invoices
+        // Schema for  payments
         var payment_cols = [{
             id: "id",
             dataType: tableau.dataTypeEnum.int
@@ -392,7 +392,7 @@
             dataType: tableau.dataTypeEnum.string
         }, {
             id: "paymentAmount",
-            dataType: tableau.dataTypeEnum.int
+            dataType: tableau.dataTypeEnum.float
         }, {
             id: "isBalanceAdjustment",
             dataType: tableau.dataTypeEnum.bool
